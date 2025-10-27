@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corne, layout_name: five_column_transform}
+layout: {zmk_keyboard: totem, layout_name: five_column_transform}
 layers:
   BASE:
   - Q
@@ -21,6 +21,7 @@ layers:
   - K
   - L
   - {t: ;, h: ''''}
+  - $$mdi:keyboard-tab$$
   - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - {t: X, h: '$$mdi:apps$$'}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
@@ -31,6 +32,7 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '$$mdi:apps$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apps$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', h: LOWER}
@@ -60,6 +62,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:dock-left$$
   - $$mdi:dock-right$$
   - $$mdi:volume-off$$
@@ -68,6 +71,7 @@ layers:
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
   - $$mdi:content-save-plus-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -95,6 +99,7 @@ layers:
   - $$mdi:arrow-expand-up$$
   - $$mdi:arrow-bottom-right$$
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
   - <
   - '{'
@@ -105,6 +110,7 @@ layers:
   - '}'
   - '>'
   - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -136,8 +142,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-move-vertical$$
   - $$mdi:mouse-move-vertical$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -169,6 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:restart$$', type: bootloader}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
@@ -179,6 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:restart$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:cog-clockwise$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -198,10 +208,10 @@ combos:
 - p: [18, 19]
   k: {t: '''', s: '"'}
   l: [BASE]
-- p: [28, 29]
+- p: [29, 30]
   k: {t: '`', s: '~'}
   l: [BASE]
-- p: [31, 32]
+- p: [33, 34]
   k: $$mdi:mouse$$
   l: [BASE]
 - p: [3, 4]
@@ -216,22 +226,22 @@ combos:
 - p: [15, 16]
   k: )
   l: [BASE]
-- p: [23, 24]
+- p: [24, 25]
   k: {t: '[', s: '{'}
   l: [BASE]
-- p: [25, 26]
+- p: [26, 27]
   k: {t: ']', s: '}'}
   l: [BASE]
 - p: [4, 5]
   k: $$mdi:caps-lock$$
   l: [BASE]
-- p: [20, 21]
+- p: [21, 22]
   k: {t: \, s: '|'}
   l: [BASE]
 - p: [14, 15]
   k: <
   l: [BASE]
-- p: [24, 25]
+- p: [26, 26]
   k: '>'
   l: [BASE]
 - p: [11, 12]
