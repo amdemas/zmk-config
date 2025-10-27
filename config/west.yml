@@ -4,10 +4,23 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: carrefinho
+      url-base: https://github.com/bukharovsi
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
   self:
     path: config

@@ -7,7 +7,7 @@
 
 #include "includes/base.dtsi"
 #include "includes/settings.dtsi"
-#include "includes/combos.dtsi"
+#include "includes/combos_corne.dtsi"
 #include "includes/macros.dtsi"
 #include "includes/mouse.dtsi"
 #include "includes/behaviors_extra.dtsi"
