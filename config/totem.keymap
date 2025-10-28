@@ -23,7 +23,6 @@
 #include "includes/mouse.dtsi"
 #include "includes/behaviors_extra.dtsi"
 #include "includes/conditional_layers.dtsi"
-#include "includes/settings_pd.dtsi"
 
 / {
     chosen {
